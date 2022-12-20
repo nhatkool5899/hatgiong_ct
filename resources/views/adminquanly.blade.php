@@ -46,73 +46,51 @@
             <ul>
                 <li>
                     <a href="/quanly" class="side-menu">
-                        <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
+                        <div class="side-menu__icon"> <i class="fa-solid fa-house-user"></i> </div>
                         <div class="side-menu__title">Dashboard
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="/quanly/gioithieu" class="side-menu">
-                        <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
+                        <div class="side-menu__icon"> <i class="fa-regular fa-address-card"></i> </div>
                         <div class="side-menu__title">Giới thiệu
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="/quanly/banner" class="side-menu">
-                        <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
+                        <div class="side-menu__icon"><i class="fa-regular fa-images"></i> </div>
                         <div class="side-menu__title">Quản lý banner
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a href="/quanly/sanpham" class="side-menu">
-                        <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                                <line x1="3" y1="6" x2="21" y2="6"></line>
-                                <path d="M16 10a4 4 0 0 1-8 0"></path>
-                            </svg> </div>
-                        <div class="side-menu__title">Sản phẩm</div>
-                    </a>
-                </li>
-                <li>
                     <a class="side-menu show-submenu">
-                        <div class="side-menu__icon"> <i class="fa-solid fa-house-chimney"></i></div>
+                        <div class="side-menu__icon"> <i class="fa-solid fa-list-check"></i></div>
                         <div class="side-menu__title">Quản lý Sản phẩm <i class="fa-solid fa-chevron-right icon-submenu"></i></div>
                     </a>
                     <ul class="drop-submenu">
-                        <li><a class="side-menu" href="{{url('quanly/sanpham/hatgiong')}}"><i class="fa-regular fa-images"></i>Hạt giống</a></li>
-                        <li><a class="side-menu" href="{{url('quanly/sanpham/datsach')}}"><i class="fa-solid fa-heading"></i>Đất sạch</a></li>
-                        <li><a class="side-menu" href="{{url('quanly/sanpham/chau')}}"><i class="fa-brands fa-figma"></i>Chậu</a></li>
+                        <li><a class="side-menu" href="{{url('quanly/sanpham/hatgiong')}}"><i class="fa-solid fa-seedling"></i>Hạt giống</a></li>
+                        <li><a class="side-menu" href="{{url('quanly/sanpham/datsach')}}"><i class="fa-solid fa-mountain-sun"></i>Đất sạch</a></li>
+                        <li><a class="side-menu" href="{{url('quanly/sanpham/chau')}}"><i class="fa-solid fa-glass-water-droplet"></i>Chậu</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="/quanly/tintuc" class="side-menu">
-                        <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path>
-                                <path d="M18 14h-8"></path>
-                                <path d="M15 18h-5"></path>
-                                <path d="M10 6h8v4h-8V6Z"></path>
-                            </svg> </div>
+                        <div class="side-menu__icon"> <i class="fa-regular fa-newspaper"></i> </div>
                         <div class="side-menu__title">Tin tức</div>
                     </a>
                 </li>
                 <li>
                     <a href="/quanly/kythuat" class="side-menu">
-                        <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path>
-                                <path d="M17 18h1"></path>
-                                <path d="M12 18h1"></path>
-                                <path d="M7 18h1"></path>
-                            </svg> </div>
+                        <div class="side-menu__icon"> <i class="fa-solid fa-plant-wilt"></i></div>
                         <div class="side-menu__title">Kỹ thuật nuôi trồng</div>
                     </a>
                 </li>
                 <li>
                     <a href="/quanly/lienhe" class="side-menu">
-                        <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                            </svg> </div>
+                        <div class="side-menu__icon"><i class="fa-solid fa-headset"></i> </div>
                         <div class="side-menu__title">Quản lý liên hệ</div>
                     </a>
                 </li>

@@ -32,3 +32,7 @@
     font-size: 12px;
     width: 30px;
 }
+
+.side-menu__icon i{
+    font-size: 20px;
+}

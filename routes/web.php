@@ -83,4 +83,6 @@ Route::group(['middleware' => ['auth']], function () {
 
 
     Route::get('/quanly/sanpham/hatgiong',[SanphamController::class, 'ql_hatgiong']);
+    Route::get('/quanly/sanpham/datsach',[SanphamController::class, 'ql_datsach']);
+    Route::get('/quanly/sanpham/chau',[SanphamController::class, 'ql_chau']);
 });

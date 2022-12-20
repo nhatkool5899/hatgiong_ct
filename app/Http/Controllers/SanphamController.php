@@ -74,6 +74,16 @@ public function chitietsanpham($id_sanpham){
         $sanphams = Sanpham::where('id_danhmuc', 1)->get();
         return view('admin.sanpham.hatgiong', compact('sanphams'));
     }
+    public function ql_datsach()
+    {
+        $sanphams = Sanpham::where('id_danhmuc', 2)->get();
+        return view('admin.sanpham.datsach', compact('sanphams'));
+    }
+    public function ql_chau()
+    {
+        $sanphams = Sanpham::where('id_danhmuc', 3)->get();
+        return view('admin.sanpham.chau', compact('sanphams'));
+    }
     public function create(){
         return view('admin.sanpham.themsanpham');
     }
