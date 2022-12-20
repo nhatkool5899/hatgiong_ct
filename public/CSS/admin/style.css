@@ -1,0 +1,34 @@
+.icon-submenu{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.icon-submenu.active{
+    animation: rotate 0.4s linear forwards;
+}
+@keyframes rotate {
+    from{transform: rotate(0);}
+    to{transform: rotate(90deg);}
+}
+
+.show-submenu{
+    cursor: pointer;
+}
+
+.drop-submenu {
+    background: transparent !important;
+    margin-left: 40px;
+}
+
+.drop-submenu .side-menu{
+    position: relative;
+    right: 0;
+    transition: right 0.4s linear;
+}
+.drop-submenu .side-menu:hover{
+    right: -3px;
+    color: #fff !important;
+}
+.drop-submenu .side-menu i{
+    font-size: 12px;
+    width: 30px;
+}
